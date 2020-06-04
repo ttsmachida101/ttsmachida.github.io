@@ -1,0 +1,93 @@
+@import url(/fonts.css);
+
+/*Start avigation*/
+
+.navbar-brand.img
+{
+    background-color: black;
+     height: 30px;
+  width:min-content;}
+
+.nav-link
+{
+    color:black;
+    font-weight: 300;
+    font-size:x-large;
+    font-family:"OpenSans", Arial, Helvetica, sans-serif;
+    text-transform: uppercase    
+}
+
+.site-banner {
+    background: url(../img/u3.jpg);
+
+     background-size: cover;
+     position: relative;
+    /*padding-right: 600px;*/
+}
+
+.site-main .site-banner .site-title h5{
+    font-weight: 500;
+    background-position-x: center;
+    
+     
+}
+
+.h4
+{
+    text-align: center;
+}
+
+.site-main .site-banner .site-title h5::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 0%;
+    transform: translateY(-0px);
+   
+}
+
+.site-main .site-banner .site-title h2{
+    font-size: 3rem;
+    
+}
+
+
+
+  #About, #Languages, #Technologies, #Projects, #Contact
+  {
+      padding-top: 100px;
+      font-style: italic;
+      font-size:x-large;
+      font-weight: 800; 
+      font-size: x-large; 
+      text-align: center; 
+      text-transform: uppercase
+  }
+
+  #java
+  {
+      font-size: x-large;
+      font-style: italic;
+      font-family:  'Arial Narrow', Arial, sans-serif;
+      background-color: brown;
+  }
+
+#langaugeContainer
+{
+    background-color: ;
+}
+
+  
+
+
+
+/*end avigation*/
+
+/*banner area*/
+
+
+
+
+/*end banner area*/
