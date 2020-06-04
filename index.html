@@ -1,30 +1,236 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
 
 <head>
-    Tino Machida Personal Site
+    <title>TINOMACHIDA.COM</title>
+
+    <!--bootstrap Files-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--Font Awesome Icons-->
+    <link rel=stylesheet href="./css/all.min.css">
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
+
 <body>
-    <!-- Tab links -->
-    <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
-        <button class="tablinks" onclick="openCity(event, 'Paris')">About</button>
-        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Contact</button>
-    </div>
 
-    <!-- Tab content -->
-    <div id="London" class="tabcontent">
-        <h3>London</h3>
-        <p>London is the capital city of England.</p>
-    </div>
+    <!--Header Tab Area-->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav id="navbar" class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="img/Tino.PNG" style="width: 100px;"></a>
+                <a class="navbar-header" href="#"></a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Languages">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Technologies">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
 
-    <div id="Paris" class="tabcontent">
-        <h3>Paris</h3>
-        <p>Paris is the capital of France.</p>
-    </div>
 
-    <div id="Tokyo" class="tabcontent">
-        <h3>Projects</h3>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-</body>
+                    <!--  Problems with drop down 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#one">one</a>
+                            <a class="dropdown-item" href="#two">two</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#three">three</a>
+                        </div>
+                    </li>
+
+
+                    Problems with drop down -->
+                </ul>
+            </nav>
+
+            <!--Scroll SPy-->
+
+
+        </div>
+    </header>
+
+    <!--END Header Tab Area-->
+
+    <!--START MAIN AREA-->
+    <main class="site-main">
+        <!--START BANNER AREA-->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 site-title">
+                        <div class="col-lg-6 col-md-12 banner-image">
+                            <h2 div class="h2 title-text text-uppercase">TINO MACHIDA</h2>
+                            <h5 div class="h5 title-text text-uppercase">Computer Scientist/Developer</h5>
+                        </div>
+                        <div class="myPicture"><img src="./img/me.jpg" alt="me" height="330px"
+                                style="border-radius: 120%;">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--END ABOUT BANNER AREA-->
+
+
+
+        <!--NAIGATION WITH SPY SCROLL-->
+        <div data-spy="scroll" data-target="#navbar-example1" data-offset="0">
+
+            <!--ABOUT BANNER AREA-->
+
+
+
+            <!---END ABOUT BANNER-->
+
+            <Section class="About-Section">
+                <h3 div class="h3 title-text text-uppercase" id="About">
+                    <u>ABOUT</u>
+                </h3>
+                <p>About Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id
+                    magna ullamco eu. Do aute
+                    ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt
+                    tempor eu consequat enim
+                    dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua
+                    officia quis et
+                    incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore
+                </p>
+            </Section>
+        </div>
+
+        <section class="Languages-Section">
+            <div class="container-fluid">
+                <h4 class id="Languages">Languages</h4>
+                <div class="row align-items-center">
+                    <div class="col">Python<img src="./img/py.jpg" style="width: 100px;"></div>
+                    <div class="col"><span class="badge badge-dark" id="java">Java</span>
+                        <img src="./img/java.jpg" style="width: 100px;"></div>
+                    <div class="col">C Language<img src="./img/C.png" style="width: 100px;"></div>
+                    <div class="col">C++<img src="./img/CPlus.png" style="width: 100px;"></div>
+                    <div class="col">Ruby<img src="./img/ruby.png" style="width: 100px;"></div>
+                    <div class="col">CSS<img src="./img/css.png" style="width: 100px;"></div>
+                    <div class="col">Javascript <img src="./img/js.jpg" style="width: 100px;"></div>
+                    <div class="col">HTML<img src="./img/html.png" style="width: 100px;"></div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="Technologies-Section">
+            <h4 id="Technologies">Technologies</h4>
+            <p>Technologies...Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis
+                aliqua id magna ullamco eu. Do aute
+                ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt
+                tempor eu consequat enim
+                dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua
+                officia quis et
+                incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore.
+                Aliquip nulla enim
+                veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit
+                dolore.incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit
+                dolore.
+                Aliquip nulla enim
+                veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit
+                dolore.veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit
+                dolore.
+            </p>
+        </section>
+        <section class="Projects-Section">
+            <h4 id="Projects">Projects</h4>
+            <h5 id="Complete">Complete</h5>
+            <p>Technologies...Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis
+                aliqua id magna ullamco eu. Do aute
+                ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt
+                tempor eu consequat enim
+                dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et
+                aliqua
+                officia quis et
+                incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit
+                dolore.
+                Aliquip nulla enim
+                veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit
+                dolore.incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt
+                mollit
+                dolore.
+                Aliquip nulla enim
+                veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit
+                dolore.veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat
+                elit
+                dolore.
+            </p>
+
+
+            <h5 id="InProgress">InProgress</h5>
+            <p>Projects Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua id
+                magna ullamco eu. Do aute
+                ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt
+                tempor eu consequat enim
+                dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et aliqua
+                officia quis et
+                incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit dolore.
+                Aliquip nulla enim
+                veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit dolore.
+            </p>
+        </section>
+        <section class="Contact-section">
+            <h4 id="Contact">Contact</h4>
+            <p>Contact Ex consequat commodo adipisicing exercitation aute excepteur occaecat ullamco duis aliqua
+                id
+                magna ullamco eu. Do aute
+                ipsum ipsum ullamco cillum consectetur ut et aute consectetur labore. Fugiat laborum incididunt
+                tempor eu consequat enim
+                dolore proident. Qui laborum do non excepteur nulla magna eiusmod consectetur in. Aliqua et
+                aliqua
+                officia quis et
+                incididunt voluptate non anim reprehenderit adipisicing dolore ut consequat deserunt mollit
+                dolore.
+                Aliquip nulla enim
+                veniam non fugiat id cupidatat nulla elit cupidatat commodo velit ut eiusmod cupidatat elit
+                dolore.
+            </p>
+        </section>
+
+
+
+        <!--Languages-->
+
+
+
+        <!--Technology-->
+
+
+        <!--Projects-->
+
+
+
+        <!--Contact-->
+
+        <!--END MAIN AREA-->
+
+    </main>
+
+    <!--bootstrap JQUERY File-->
+    <script src="js/JQUERY.js" />
+
+    <!--bootstrap JS File-->
+    <script src="./js/bootstrap.min.js" />
+
+
+    </body>
+
+
+
+</html>
