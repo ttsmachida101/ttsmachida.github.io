@@ -18,7 +18,7 @@
 }
 
 .site-banner {
-    background: url(../img/u3.jpg);
+    background: url(../assets/img/u3.jpg);
 
      background-size: cover;
      position: relative;
@@ -74,10 +74,7 @@
       background-color: brown;
   }
 
-#langaugeContainer
-{
-    background-color: ;
-}
+
 
   
 
