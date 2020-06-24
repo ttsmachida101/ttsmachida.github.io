@@ -1,4 +1,5 @@
 @import url(/fonts.css);
+@import url(/all.min.css);
 
 /*Start avigation*/
 
@@ -36,8 +37,7 @@
 {
     text-align: center;
 }
-
-.site-main .site-banner .site-title h5::after{
+ .site-banner .site-title h5::after{
     content: " ";
     height: 2px;
     width: 18vw;
