@@ -13,6 +13,9 @@
  <link rel=stylesheet href="./assets/icons/webfonts/fa-brands-400.svg">
     <!--  custom css file  -->
     <link rel="stylesheet" href="./css/style.css">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 </head>
 
 
@@ -84,24 +87,30 @@
 
         </div>
     </header>
-
     <!--END Header Tab Area-->
+
+
 
     <!--START MAIN AREA-->
     <main class="site-main">
         <!--START BANNER AREA-->
         <section class="site-banner">
+
             <div class="container">
+
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 site-title">
-                        <div class="col-lg-6 col-md-12 banner-image">
-                            <h2 div class="h2 title-text text-uppercase">TINO MACHIDA</h2>
-                            <h5 div class="h5 title-text text-uppercase"><u>Computer Scientist/Developer</u></h5>
-                        </div>
+                     <div class="col-lg-6 col-md-6 banner-image">
+                        
                         <div class="myPicture"><img src="./assets/img/me.jpg" alt="me" height="330px"
                                 style="border-radius: 100%;">
                         </div>
                     </div>
+                   <div class="col-lg-6 col-md-6 site-title">
+                   <div class ="title">
+                            <h2 div class="h2 title-text text-uppercase">TINO MACHIDA</h2>
+                            <h5 div class="h5 title-text text-uppercase"><u>Computer Scientist/Developer</u></h5>
+                            </div>
+                        </div>
                 </div>
         </section>
         <!--END ABOUT BANNER AREA-->
@@ -121,39 +130,33 @@
                 <h3 div class="h3 title-text text-uppercase" id="About">
                 <u>ABOUT</u>
                 </h3>
-                <p>My name is Tino Machida and welcome to my Git- Page portfolio. I am a recent graduate Computer Science Major
+                <p div class = "para">My name is Tino Machida and welcome to my Git- Page portfolio. I am a recent graduate Computer Science Major
                 (Software Engineering Concerntration) from the University of Manitoba. My program was very challenging but still just mentally stimulating
                  enough to keep me interested in what I was doing. At times I would work on a problem and encounter brick walls and feel like 
                  a solution was not viable. During my first years I had no idea what Computer Science was all about, (very evident with me feeling stuck and 
                  just giving up) but as dove deeper into my program I realized that it's all about solving problems and bottlenecks. 
                  The program tested every aspect of my resolve to complete it and through it I became a more resilient thinker.
-                </p>
-                <p>
                 The process involved a great deal of independent research, requiring initiative, self-motivation and learning a wide range of 
-                skills and technologies. It consisted of courses like Database Systems, Analysis of Algorithms, Web Technologies, Software Engineering,
+                skills and technologies. </p>
+                
+                <p div class = "para"> It consisted of courses like Database Systems, Analysis of Algorithms, Web Technologies, Software Engineering,
                  Networking, Specification and design of Graphical User Interface, Distributed Systems, Technical Communication and a whole load of Mathematics..lol
                 The program assisted me to gain basic but essential knowledge in the multiple fields of Computer Science.
-                 </p>
-                <p>Adapting to various work cultures, identifying and resolving bottlenecks and prioritizing have been striking features of 
-                    my working style. In addition to the above, I strongly believe in learning and sharing my knowledge with my colleagues.
-                    “Knowledge parted is knowledge gained” has been my motto in life. 
-                    I am always keen to learn and am sharp at identifying and solving problems
-                 </p>
-                
-                <p>
-
-                     When I am not stuck typing away code behind a screen you can find me playing around with various digital audio workstations and 
-                     producing music or in a park somewhere enjoying the outdoors.
+                Adapting to various work cultures, identifying and resolving bottlenecks and prioritizing have been striking features of 
+                my working style. In addition to the above, I strongly believe in learning and sharing my knowledge with my colleagues.
+                “Knowledge parted is knowledge gained” has been my motto in life. I am always keen to learn and am sharp at identifying 
+                and solving problems. When I am not stuck typing away code behind a screen you can find me playing around with various 
+                digital audio workstations and producing music or in a park somewhere enjoying the outdoors.
                 </p>
             </Section>
         </div>
+
 
             <div class="container">
         <section class="Languages-Section">
 
                 <h4 class id="Languages"><u>Languages</u></h4>
-               <br>
-                  <p>
+                  <p div class = "para">
                 The very first language I ever learned was Python. Not Html, not CSS. Believe it or not but, before my first year in
                  university, I had never programmed in my life. Not a single line of code. It was uphill, a challenge for me and I 
                  struggled a lot to learn the basic syntax as I had never programmed anything in my whole entire life. I painstakingly 
@@ -180,8 +183,8 @@
                     <div class="col"><span class="badge badge-dark" id="html">HTML</span>
                     <img src="./assets/img/html.png" style="width: 100px;"></div>
                 </div>
-<br><br>
-                <p>
+<br>
+                <p div class = "para">
                The very next 
                  semester we had to use Java. Transitioning from python to Java was initially strange for me. I was not used to explicitly 
                 declaring types and the flow appeared unusually structured and peculiar to me. Soon enough, I learned how to write good
@@ -198,12 +201,9 @@
             
         
         <div class = "container">
-
         <section class="Technologies-Section">
             <h4 id="Technologies"><u>Technologies</u></h4>
-
-            <br>
-            <p>
+            <p  div class = "para">
             I think this part is self explanatory....lol
             </p>
             <br>
@@ -227,14 +227,14 @@
            
         </section>
              </div>
-
+<br><br>
         <div class = "container">
         <section class="Projects-Section">
             <h4 id="Projects"><u>Projects</u></h4>
             <h5 id="Complete"><u><b>Complete</b></u></h5>
 
             <h6><b>AirDnD</b><h6>
-            <p>
+            <p div class = "para">
             This was a Software Engineering 2 class project whereby we had to build a fully working mobile and Web app, linked to the 
             same server. I teamed up with 8 other students to deliver a minimum viable, fully functional app. The app is pretty much a dungeons
             and dragons character customization suite, with a database/ login and character update properties. An EC-2 instance with node.js was used
@@ -244,7 +244,7 @@
 
 <br>
             <h6><b>Politics Gallery</b><h6>
-            <p>
+            <p div class = "para">
             This was a me just clearly having fun and demonstrating my knowledge of computer graphics and physics. This is a simple script built 
             in processing (P3D). Initially it was a Graphics 1 project which was meant to simulate a simple 3D world with different camera angles
             and also allowing for movement and camera movement. I am guessing one bored Saturday I got bored and got too carried away and turned it
@@ -253,21 +253,21 @@
             </p>
             <br>
             <h6><b>HowFit 1</b><h6>
-            <p>
+            <p div class = "para">
             I had the covid isolation blues and decided to brush up on some front end languages which i hadn't touched in a while. This is a simple
             Hack+ PHP + Javascript and HTML app that allows for the user to enter in their bio-metrics and get their BMR and BMI.
             Not much work was put in here. 
             </p>
     <br>
             <h6><b>Foody D</b><h6>
-            <p>
+            <p div class = "para">
             This was a mock up site which emphasised on HCI and placment of components. As you go through the web app you will notice that it'safe
             not really fleshed out. It's meant to be a mock up with a focus on asthetics and heuristics. It's basically a front-end stub without
             any back-end attached to it, hence it does not process any request. It was built with HTML+CSS+ Javascript and Bootstrap
             </p>
     <br>
             <h6><b>Movie-Goers</b><h6>
-            <p>
+            <p div class = "para">
           This was a Software Engineering 1 project where I teamed up with 4 other brilliant colleagues to build a fully functional android app. I found
           myself taking the lead role in this project and took up the position of scrum master and repo-manager. This project is what flamed my
           apsirations to particularly pursue Software Engineering. Having the oppourtunity to work with a well concerted and orchestrated team is 
@@ -279,7 +279,7 @@
 
             <h5 id="InProgress"><b><u>InProgress</u></b></h5>
              <h6><b>AutoPost</b><h6>
-               <p>
+               <p div class = "para">
                Webb app that runs on a web-server and automatically posts to social media for you at set intervals. The user determines the 
                content and the time intervals for the content to be posted. I know Facebook has something similar but I decided to implement 
                this from the ground up. Currently using python and Selenium, might change it later on
@@ -287,22 +287,22 @@
 
                   <br>
             <h6><b>HowFit2</b><h6>
-           <p>Translating the Web app HowFit to a NativeScript app. I saw this as an oppourtunity to learn NativeScript while at the same time adding
+           <p div class = "para">Translating the Web app HowFit to a NativeScript app. I saw this as an oppourtunity to learn NativeScript while at the same time adding
             more features to the howFit app.
       </p>
                  <br>
              <h6><b>BudgeIt</b><h6>  
-             <p>I was doing some budgeting and couldn't help but notice that the budget websites available online highly annoying or too
+             <p div class = "para">I was doing some budgeting and couldn't help but notice that the budget websites available online highly annoying or too
              bulky. I hate having to download a bulky app when all I want to do is quick math. Or just run a quick calculation of my expenses
              without having to go through login and etc.
              This is a Android + Webb App that allows for quick budget planning. Highly Customizable </p>
              
                   <br>
               <h6><b>[Undiscloded 1]</b><h6>
-              <p>An undisclosed project with a team of 5 other developers on a web and mobile app</p>
+              <p div class = "para">An undisclosed project with a team of 5 other developers on a web and mobile app</p>
               <br>
                <h6><b>[Undiscloded 2]</b><h6>
-               <p>A solo project I have been undertaking since April 2020 - Updates will come soon</p>
+               <p div class = "para">A solo project I have been undertaking since April 2020 - Updates will come soon</p>
 
 
             <p>
@@ -336,8 +336,8 @@
                     
             </div>
 
-            <br>   <br>   <br>   <br>
-            <p>
+            <br><br><br><br>
+            <p div class = "para">
             Feel free to reach out and chat! Or dont...lol
             </p>
                     
@@ -368,11 +368,20 @@
 
     </main>
 
+    
+
+
+
+ <script src ="./assets/js/effects.js"</script>
     <!--bootstrap JQUERY File-->
-    <script src="./assetsjs/JQUERY.js" />
+      
+    <script src="./assetsjs/JQUERY.js" </script>
+
 
     <!--bootstrap JS File-->
-    <script src="./assets/js/bootstrap.min.js" />
+    <script src="./assets/js/bootstrap.min.js" </script>
+ 
+ 
     </body>
-
+ 
 </html>
