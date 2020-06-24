@@ -66,6 +66,16 @@
       text-transform: uppercase
   }
 
+  p
+  {
+      font-size:x-large;
+      font-weight: 100; 
+      font-size:large; 
+      text-align: center; 
+      
+
+  }
+
   #java, #python, #C-Language, #C-PlusPlus, #Javascript, #ruby, #CSS,#html
   {
       font-size: smaller;
