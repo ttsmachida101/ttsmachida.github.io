@@ -66,12 +66,13 @@
       text-transform: uppercase
   }
 
-  #java
+  #java, #python, #C-Language, #C-PlusPlus, #Javascript, #ruby, #CSS,#html
   {
-      font-size: x-large;
+      font-size: smaller;
       font-style: italic;
       font-family:  'Arial Narrow', Arial, sans-serif;
-      background-color: brown;
+      background-color: rgb(43, 43, 43);
+      text-align: center;
   }
 
 
